@@ -70,6 +70,14 @@ p {
   text-transform: capitalize;
 }
 
+.h3--mod {
+  margin-top: 16px;
+  font-weight: 700;
+  color: #243e63;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
 .global-p--mod {
   font-size: 18px;
   font-weight: 500;
@@ -492,6 +500,10 @@ header .row {
   max-width: 576px;
 }
 
+#pricing .two-cols--entireWidth {
+  align-items: normal;
+}
+
 .pricing__box {
   width: 100%;
   max-width: 384px;
@@ -616,4 +628,99 @@ header .row {
   width: 100%;
   height: 8px;
   background: linear-gradient(115deg, rgb(245,101,101) 0%, rgb(254,178,178) 100%);
+}
+
+.plans__blob {
+  z-index: -10;
+  position: absolute;
+  transform: translateX(-50%) translateY(185%) scaleX(1) scaleY(1);
+  height: 256px;
+  width: 256px;
+  opacity: 0.25;
+}
+
+/* Testimonial */
+#testimonial img {
+  width: 50%;
+}
+
+.testimonial-box__padding-left {
+  padding-left: 64px;
+}
+
+.testimonial__star {
+  margin-top: 40px;
+}
+
+.fas {
+  display: inline-block;
+  font-family: "Font Awesome 5 Pro";
+  font-style: normal;
+  font-weight: 900;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.fa-star::before {
+  content: "\f005";
+}
+
+.testimonial__star i {
+  color: rgba(246, 173, 85);
+  margin-top: 4px;
+  margin-right: 2px;
+}
+
+.testimonial__p {
+  margin: 16px 0 40px 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.625;
+  color: #4a5568;
+}
+
+.profile__img {
+  width: 80px !important;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.testimonial__name-box {
+  margin-left: 24px;
+}
+
+.testimonial__name {
+  font-weight: 700;
+  color: #243e63;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.testimonial__role {
+  color: #7c8ba1;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.testimonial__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  background-color: #edf2f7;
+  border-radius: 50%;
+  margin: 0 12px;
+  transition: all 300ms;
+}
+
+.testimonial__button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background-color: rgb(229, 231, 235);
 }
