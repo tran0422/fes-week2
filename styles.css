@@ -1035,3 +1035,102 @@ footer {
     font-size: 20px;
   }
 }
+
+@media (max-width: 425px) {
+  nav .row {
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav__link-display--flex {
+    display: none;
+  }
+  .hamburger_menu {
+    display: block;
+  }
+  .nav__logo-title,
+  .nav__logo-image-size {
+      width: 100%;
+      max-width: 375px;
+      margin: 0 auto;
+  }
+  .nav__logo-title {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  h1 {
+      font-size: 30px;
+      text-align: center;
+  }
+  .header__width {
+    width: 100%;
+  }
+  .header__email {
+    flex-direction: column;
+    /* position: unset; */
+    height: calc(68px * 2);
+  }
+  .email__input-box {
+    position: unset;
+  }
+  .header__p-margin {
+      margin: 20px 0;
+  }
+  .header__customers {
+      padding-right: 0px;
+  }
+  .header__img--margin {
+      margin-top: 48px;
+  }
+  #features .row__narrow {
+      max-width: 425px;
+      margin-top: 29px;
+  }
+  .h2--mod {
+    line-height: 1.25;
+    text-align: center;
+  }
+  .individual-tile--width {
+      width: auto;
+  }
+  .row__padding {
+    padding: 56px 16px 56px 16px;
+  }
+  .df__padding-small {
+    max-width: 768px;
+  }
+  .two-cols--tinyWidth {
+    flex-direction: column;
+    align-items: normal;
+  }
+  .feature-tiles--display {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .start--button {
+    margin: 10px 10px;
+  }
+  .start--button:nth-child(1) {
+    margin: 10px 10px;
+  }
+  .quality__colWidth {
+      margin-right: 0px;
+      padding-right: 48px;
+  }
+  .two-cols--entireWidth{
+    flex-direction: column;
+    align-items: center !important;
+  }
+  .pricing-button-design {
+    padding: 16px 16px;
+  }
+  .background--purple {
+    padding: 76px 20px;
+    border-radius: 9px;
+  }
+  #started p {
+    font-size: 20px;
+  }
+}
